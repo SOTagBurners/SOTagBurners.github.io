@@ -12,9 +12,9 @@ markup:
       typographer: false
     renderer:
       unsafe: true
-  highlight: 
-    style: emacs 
-  tableOfContents: 
+  highlight:
+    style: emacs
+  tableOfContents:
     endLevel: 6
     startLevel: 2
 
