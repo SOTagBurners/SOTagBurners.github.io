@@ -1,0 +1,27 @@
+@import "./_vars";
+
+.social {
+    align-items: center;
+    background-color: $theme-inverse-bgcolor;
+    display: flex;
+    flex-basis: 5vw;
+    justify-content: space-evenly;
+
+    > li {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        text-align: center;
+    }
+
+    .github {
+        background-color: $theme-primary-color;
+        height: 24px;
+        mask-image: url("/icons/github-logo.png");
+        mask-origin: content-box;
+        mask-position: center;
+        mask-repeat: no-repeat;
+        mask-size: 24px 24px;
+        width: 24px;
+    }
+}
