@@ -1,0 +1,21 @@
+baseURL: https://sotagburners.github.io
+disablePathToLower: true
+languageCode: en-gb
+title: SO Tag Burners
+publishDir: public
+
+markup:
+  enableEmoji: true
+  goldmark:
+    extensions:
+      linkify: true
+      typographer: false
+    renderer:
+      unsafe: true
+  highlight: 
+    style: emacs 
+  tableOfContents: 
+    endLevel: 6
+    startLevel: 2
+
+

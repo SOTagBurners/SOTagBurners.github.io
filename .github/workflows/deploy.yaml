@@ -1,0 +1,36 @@
+name: Deploy pages
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  hugo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - uses: actions/setup-python@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Run hugo and commit
+        shell: bash
+        run: |
+          mkdir public 
+          hugo --minify
+          cd public && git config --global init.defaultBranch deployment && git init && git add -A
+          git config --global user.name github-actions[bot]
+          git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git remote add origin https://github.com/SOTagBurners/SOTagBurners.github.io/
+          git commit -m "Deploy changes for ${GITHUB_SHA}"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: deployment
+          force: true
+          directory: public
