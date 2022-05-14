@@ -1,4 +1,6 @@
 ---
+description: SOTagBurners homepage
+keywords: ["Stack Overflow", "Tags", "SOTagBurners"]
 layout: single
 title: Home
 ---
