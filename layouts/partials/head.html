@@ -1,6 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-<meta http-equiv="Content-language" content = "en-GB"/>
+<meta http-equiv="Content-language" content = "{{ .Language }}"/>
+<meta name="keywords" content="{{ delimit .Keywords ", " }}">
+<meta name="description" content="{{ .Description }}">
 
 <!-- Visible metadata -->
 <title>{{ .Title }} | {{ .Site.Title }}</title>
