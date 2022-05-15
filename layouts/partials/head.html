@@ -8,7 +8,6 @@
 <title>{{ .Title }} | {{ .Site.Title }}</title>
 
 {{ $base := resources.Get "scss/theme.scss" }}
-{{ $postcss := dict "use" "autoprefixer" }}
-{{ $style := $base | resources.ToCSS | resources.PostCSS $postcss | resources.Minify }}
+{{ $style := $base | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
 

@@ -28,6 +28,13 @@ $social-icon-size: clamp(18px, 2vw, 24px);
             repeat: no-repeat;
             size: $social-icon-size $social-icon-size;
         };
+        -webkit-mask: {
+            image: url("/icons/github-logo.png");
+            origin: content-box;
+            position: center;
+            repeat: no-repeat;
+            size: $social-icon-size $social-icon-size;
+        };
         width: $social-icon-size;
     }
 }
