@@ -1,0 +1,21 @@
+@import "./_vars";
+
+footer {
+    align-items: center;
+    background-color: $theme-ternary-bgcolor;
+    display: flex;
+    font-size: 0.75em;
+    gap: 1.5em;
+    justify-content: center;
+    height: 2.5vh;
+    padding: 1em 0;
+
+    > div:not(:last-child) {
+        &::after {
+            color: $theme-inverse-bgcolor;
+            content: "\2022";
+            position: relative;
+            right: -0.75em;
+        }
+    }
+}
