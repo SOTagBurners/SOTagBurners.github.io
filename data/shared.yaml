@@ -10,6 +10,12 @@ site:
     platform: GitHub
     url: https://github.com/SOTagBurners/SOTagBurners.github.io
 orgs:
+  charcoal:
+    name: Charcoal
+    url: https://charcoal-se.org/
   sobotics:
     name: SOBotics
     url: https://sobotics.org/
+  socvr:
+    name: SOCVR
+    url: https://socvr.org/
