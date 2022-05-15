@@ -43,7 +43,22 @@ section {
 }
 
 footer {
+    align-items: center;
+    background-color: $theme-ternary-bgcolor;
+    display: flex;
+    font-size: 0.75em;
+    gap: 1.5em;
+    justify-content: center;
     height: 2.5vh;
+
+    > div:not(:last-child) {
+        &::after {
+            color: $theme-inverse-bgcolor;
+            content: "\2022";
+            position: relative;
+            right: -0.75em;
+        }
+    }
 }
 
 h1 {
@@ -51,7 +66,13 @@ h1 {
     width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     // Paragraph spacing
     margin-bottom: 15px;
 }
