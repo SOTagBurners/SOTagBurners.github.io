@@ -1,6 +1,15 @@
 chat:
   url: https://chat.stackoverflow.com/rooms/244740
+rodgort:
+  name: Rodgort
+  repo:
+    platform: GitLab
+    url: https://gitlab.com/rjrudman/Rodgort
 site:
   repo:
     platform: GitHub
     url: https://github.com/SOTagBurners/SOTagBurners.github.io
+orgs:
+  sobotics:
+    name: SOBotics
+    url: https://sobotics.org/

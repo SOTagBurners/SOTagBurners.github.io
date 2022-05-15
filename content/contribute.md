@@ -16,3 +16,7 @@ Below are the areas you can help with:
 ## [Website]({{< data "shared" "site" "repo" "url" >}})
 
 The website is built with {{< buildinfo >}}
+
+## [{{< data "shared" "rodgort" "name" >}}]({{< data "shared" "rodgort" "repo" "url" >}}) ([{{< data "shared" "orgs" "sobotics" "name" >}}]({{< data "shared" "orgs" "sobotics" "url" >}}))
+
+A project for managing burnination, synonym, and merge requests on Stack Overflow.
