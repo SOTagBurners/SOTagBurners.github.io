@@ -1,8 +1,24 @@
 baseURL: https://sotagburners.github.io
 disablePathToLower: true
 languageCode: en-gb
-title: SO Tag Burners
+title: SOTagBurners
 publishDir: public
+
+uglyurls: true
+disablePathToLower: false
+
+taxonomies:
+  category: categories
+  tag: tags
+
+outputs:
+  taxonomy: ["HTML"]
+  taxonomyTerm: ["HTML"]
+  page: ["HTML"]
+  # Not sure if this affects blog RSS, if we eventually add one.
+  # Future problem, though.
+  section: ["HTML"]
+  home: ["HTML"]
 
 markup:
   enableEmoji: true
@@ -36,3 +52,6 @@ menus:
       name: About Us
       url: /about
       weight: 4
+
+params:
+  chatroom: https://chat.stackoverflow.com/rooms/244740

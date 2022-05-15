@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<section id="list">
+
+    {{ $baseurl := .Site.BaseURL }}
+
+    <h2>{{ .Title }}</h2>
+
+    {{ .Content }}
+
+
+    <div class="posts">
+        {{ range .Pages }}
+        <div class="article">
+            <h1><a href="{{ .Permalink }}">{{ if .Draft }}{{ T "draft" }}: {{ end }}{{ .Title | markdownify }}</a></h1>
+            <p>{{ .Summary }}</p>
+            <div>
+                <a href="{{ .Permalink }}">Read More...</a>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    
+
+</section>
+
+<!--
+vim:ft=liquid
+-->
+{{ end }}
