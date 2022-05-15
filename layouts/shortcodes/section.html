@@ -1,7 +1,12 @@
 {{ $header := .Get 0 }}
 {{ $id := .Get 1 }}
+{{ $main := .Get 2 }}
 <section id="{{- $id -}}">
+    {{ with $main }}
+    <h1>{{- $header -}}</h1>
+    {{ else }}
     <h2>{{- $header -}}</h2>
+    {{ end }}
 
     {{ $content := .Inner | .Page.RenderString }}
     {{- $content -}}
