@@ -1,4 +1,4 @@
-{{ $datafile := .Get 0 }}
-{{ $datamap := index .Site.Data $datafile }}
-{{ $path := after 1 .Params }}
-{{ index $datamap $path }}
+{{- $datafile := .Get 0 -}}
+{{- $datamap := index .Site.Data $datafile -}}
+{{- $path := after 1 .Params -}}
+{{- index $datamap $path -}}
