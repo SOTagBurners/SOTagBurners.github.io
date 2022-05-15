@@ -9,6 +9,12 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 header {
     background-color: $theme-primary-bgcolor;
     display: flex;
@@ -21,12 +27,12 @@ header {
     }
 }
 
-.container {
-    height: 85vh;
+main {
+    flex-grow: 1;
 }
 
 footer {
-    height: 10vh;
+    height: 2.5vh;
 }
 
 h1 {
