@@ -1,0 +1,10 @@
+<nav>
+    <ul>
+        {{ $current := . }}
+        {{ range .Site.Menus.main }}
+            {{ if or (ne .Identifier "home") (not $.IsHome) }}
+            <a href="{{ .URL }}" target="_blank"><li>{{ .Name }}</li></a>
+            {{ end }}
+        {{ end }}
+    </ul>
+</nav>
