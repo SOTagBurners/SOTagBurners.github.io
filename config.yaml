@@ -1,11 +1,9 @@
 baseURL: https://sotagburners.github.io
-disablePathToLower: true
 languageCode: en-gb
 title: SOTagBurners
 publishDir: public
 
 uglyurls: true
-disablePathToLower: false
 
 taxonomies:
   category: categories
