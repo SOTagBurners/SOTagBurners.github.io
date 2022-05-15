@@ -1,3 +1,4 @@
+@import "./_container";
 @import "./_nav";
 @import "./_social";
 @import "https://fonts.googleapis.com/css2?family=Material+Icons";
@@ -28,7 +29,6 @@ footer {
 
 h1 {
     display: inline-block;
-    text-align: center;
     width: 100%;
 }
 

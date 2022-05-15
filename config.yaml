@@ -50,6 +50,3 @@ menus:
       name: About Us
       url: /about
       weight: 4
-
-params:
-  chatroom: https://chat.stackoverflow.com/rooms/244740
