@@ -5,7 +5,7 @@ layout: single
 title: Contribute
 ---
 
-# {{< param title >}}
+{{< section "Contribute" "contribute" true >}}
 
 Contributions are always welcome!
 
@@ -13,11 +13,15 @@ If you have any questions, feel free to [drop by to chat]({{< data "shared" "cha
 
 Below are the areas you can help with:
 
-## [Website]({{< data "shared" "site" "repo" "url" >}})
+{{</ section >}}
 
-The website is built with {{< buildinfo >}}
+{{< section "Website" "website" >}}
 
-## Related Initiatives
+The [website]({{< data "shared" "site" "repo" "url" >}}) is built with {{< buildinfo >}}
+
+{{</ section >}}
+
+{{< section "Related Initiatives" "related" >}}
 
 ### [{{< data "shared" "orgs" "charcoal" "name" >}}]({{< data "shared" "orgs" "charcoal" "url" >}})
 
@@ -32,3 +36,5 @@ Stack Exchange network-wide user organization for creating community governance 
 ### [{{< data "shared" "orgs" "socvr" "name" >}}]({{< data "shared" "orgs" "socvr" "url" >}})
 
 Stack Overflow-based group of curators focusing on coordinated question closure, reopening, reviewing, and clean-up.
+
+{{</ section >}}
