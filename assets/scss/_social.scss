@@ -1,11 +1,15 @@
 @import "./_vars";
 
+$social-icon-size: clamp(18px, 2vw, 24px);
+
 .social {
     align-items: center;
     background-color: $theme-inverse-bgcolor;
     display: flex;
     flex-basis: 5vw;
     justify-content: space-evenly;
+    min-width: 36px;
+    max-width: 48px;
 
     > li {
         align-items: center;
@@ -16,12 +20,12 @@
 
     .github {
         background-color: $theme-primary-color;
-        height: 24px;
+        height: $social-icon-size;
         mask-image: url("/icons/github-logo.png");
         mask-origin: content-box;
         mask-position: center;
         mask-repeat: no-repeat;
-        mask-size: 24px 24px;
-        width: 24px;
+        mask-size: $social-icon-size $social-icon-size;
+        width: $social-icon-size;
     }
 }
