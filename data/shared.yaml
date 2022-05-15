@@ -1,2 +1,6 @@
 chat:
   url: https://chat.stackoverflow.com/rooms/244740
+site:
+  repo:
+    platform: GitHub
+    url: https://github.com/SOTagBurners/SOTagBurners.github.io
