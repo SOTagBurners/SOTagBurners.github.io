@@ -12,15 +12,24 @@ jobs:
         with:
           submodules: true
       - uses: actions/setup-python@v2
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - run: npm ci
+
       - name: Run hugo and commit
         shell: bash
         run: |
-          mkdir public 
+          mkdir public
           hugo --minify
           cd public && git config --global init.defaultBranch deployment && git init && git add -A
           git config --global user.name github-actions[bot]
