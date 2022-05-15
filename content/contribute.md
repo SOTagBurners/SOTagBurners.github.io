@@ -7,13 +7,24 @@ title: Contribute
 
 {{< section "Contribute" "contribute" true >}}
 
-Contributions are always welcome!
+Both technical and non-technical contributions are always welcome!
 
 If you have any questions, feel free to [drop by to chat]({{< data "shared" "chat" "url" >}}).
 
 Below are the areas you can help with:
 
 {{</ section >}}
+
+{{<section "Burninations and other tag-related moderation" "tag-mod">}}
+
+If you're interested in helping with burninations, or other aspects of tag moderation, or possibly just moderation in general, we're always in need of more help on the frontlines.
+
+<!-- awkward wording? -->
+If you're looking for an introduction to contributing to tag moderation, [see the introduction](/intro/). You can also drop by chat.
+
+If you're looking to contribute to moderation in general, you may be interested in one or more of [the related initiatives](#related) listed below.
+
+{{</section>}}
 
 {{< section "Website" "website" >}}
 
