@@ -11,6 +11,8 @@ Contributions are always welcome!
 
 If you have any questions, feel free to [drop by to chat]({{< data "shared" "chat" "url" >}}).
 
-## Website
+Below are the areas you can help with:
+
+## [Website]({{< data "shared" "site" "repo" "url" >}})
 
 The website is built with {{< buildinfo >}}
