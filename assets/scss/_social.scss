@@ -21,11 +21,13 @@ $social-icon-size: clamp(18px, 2vw, 24px);
     .github {
         background-color: $theme-primary-color;
         height: $social-icon-size;
-        mask-image: url("/icons/github-logo.png");
-        mask-origin: content-box;
-        mask-position: center;
-        mask-repeat: no-repeat;
-        mask-size: $social-icon-size $social-icon-size;
+        mask: {
+            image: url("/icons/github-logo.png");
+            origin: content-box;
+            position: center;
+            repeat: no-repeat;
+            size: $social-icon-size $social-icon-size;
+        };
         width: $social-icon-size;
     }
 }
