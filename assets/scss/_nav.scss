@@ -5,6 +5,7 @@ nav {
     flex-basis: 95vw;
     flex-grow: 1;
     font-family: "Roboto", sans-serif;
+    min-width: calc(100vw - 36px);
 
     a {
         color: $theme-inverse-primary-color;
