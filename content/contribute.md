@@ -27,9 +27,13 @@ The [website]({{< data "shared" "site" "repo" "url" >}}) is built with {{< build
 
 Stack Exchange network group of volunteers with the goal of detecting and effectively removing spam from the network.
 
+**[{{< data "shared" "smokey" "name" >}}]({{< data "shared" "smokey" "repo" "url" >}})** &ndash; a bot for detecting and reporting spam posts.
+
 ### [{{< data "shared" "orgs" "sobotics" "name" >}}]({{< data "shared" "orgs" "sobotics" "url" >}})
 
 Stack Exchange network-wide user organization for creating community governance bots, and more.
+
+**[{{< data "shared" "revenant" "name" >}}]({{< data "shared" "revenant" "repo" "url" >}})** &ndash; a bot for tracking zombie tags arisen after burnination.
 
 **[{{< data "shared" "rodgort" "name" >}}]({{< data "shared" "rodgort" "repo" "url" >}})** &ndash; a project for managing burnination, synonym, and merge requests on Stack Overflow.
 

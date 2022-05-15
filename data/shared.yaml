@@ -1,5 +1,10 @@
 chat:
   url: https://chat.stackoverflow.com/rooms/244740
+revenant:
+  name: Revenant
+  repo:
+    platform: GitHub
+    url: https://github.com/SOBotics/Revenant
 rodgort:
   name: Rodgort
   repo:
@@ -9,6 +14,11 @@ site:
   repo:
     platform: GitHub
     url: https://github.com/SOTagBurners/SOTagBurners.github.io
+smokey:
+  name: SmokeDetector
+  repo:
+    platform: GitHub
+    url: https://github.com/Charcoal-SE/SmokeDetector
 orgs:
   charcoal:
     name: Charcoal
