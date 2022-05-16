@@ -1,3 +1,4 @@
 {{ $hostname := .Get 0 }}
 {{ $tagname := .Get 1 }}
-<a class="tag" href="{{- path.Join "https://" $hostname "/tags/" $tagname -}}" target="_blank" title="Questions tagged [{{- $tagname -}}]">{{- $tagname -}}</a>
+{{ $url := slice "https://" $hostname "/tags/" $tagname }}
+<a class="tag" href="{{- delimit $url "" -}}" target="_blank" title="Questions tagged [{{- $tagname -}}]">{{- $tagname -}}</a>
