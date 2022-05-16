@@ -1,0 +1,14 @@
+@media screen and (min-width: 512px) {
+    footer {
+        flex-direction: column;
+        gap: 0.5em;
+
+        div {
+            &:not(:last-child) {
+                &::after {
+                    content: "";
+                }
+            }
+        }
+    }
+}
