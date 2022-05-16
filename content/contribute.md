@@ -34,11 +34,19 @@ The [website]({{< data "shared" "site" "repo" "url" >}}) is built with {{< build
 
 {{< section "Related Initiatives" "related" >}}
 
+<ul class="block-list">
+
+<li>
+
 ### [{{< data "shared" "orgs" "charcoal" "name" >}}]({{< data "shared" "orgs" "charcoal" "url" >}})
 
 Stack Exchange network group of volunteers with the goal of detecting and effectively removing spam from the network.
 
 **[{{< data "shared" "smokey" "name" >}}]({{< data "shared" "smokey" "repo" "url" >}})** &ndash; a bot for detecting and reporting spam posts.
+
+</li>
+
+<li>
 
 ### [{{< data "shared" "orgs" "sobotics" "name" >}}]({{< data "shared" "orgs" "sobotics" "url" >}})
 
@@ -48,8 +56,16 @@ Stack Exchange network-wide user organization for creating community governance 
 
 **[{{< data "shared" "rodgort" "name" >}}]({{< data "shared" "rodgort" "repo" "url" >}})** &ndash; a project for managing burnination, synonym, and merge requests on Stack Overflow.
 
+</li>
+
+<li>
+
 ### [{{< data "shared" "orgs" "socvr" "name" >}}]({{< data "shared" "orgs" "socvr" "url" >}})
 
 Stack Overflow-based group of curators focusing on coordinated question closure, reopening, reviewing, and clean-up.
 
 {{</ section >}}
+
+</li>
+
+</ul>
