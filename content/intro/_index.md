@@ -16,6 +16,8 @@ If you're interested in participating in a burnination, [see this document](burn
 
 [TODO: something about tag disambiguation]
 
+If you think a tag needs to be disambiguated, please make a meta post with the {{< tag "meta.stackoverflow.com" "tag-disambiguation" >}} tag.
+
 As for synonyms, there's not always a lot to do here. If you stumble into nearly identical tags, you can post a question on [meta](//meta.stackoverflow.com) with the {{< tag "meta.stackoverflow.com" "synonym-request" >}} tag.
 
 If you have questions about participating, or have questions when participating, join [our chatroom]({{< data "shared" "chat" "url" >}})
