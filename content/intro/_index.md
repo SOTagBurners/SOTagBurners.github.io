@@ -22,7 +22,7 @@ If you're interested in participating in a burnination, [see this document](burn
 
 ### Disambiguating
 
-[TODO: something about tag disambiguation]
+Some tags are ambiguous (usually due to poor naming), causing unrelated questions to be grouped.
 
 If you think a tag needs to be disambiguated, please make a {{< external "https://meta.stackoverflow.com/questions/ask" "meta" "Meta Stack Overflow" >}} post with the {{< tag "meta.stackoverflow.com" "tag-disambiguation" >}} tag.
 
