@@ -1,0 +1,5 @@
+{{ $hostname := .Get 0 }}
+{{ $tagname := .Get 1 }}
+<span class="tag">
+    <a href="{{- path.Join "https://" $hostname "/tags/" $tagname -}}" target="_blank" title="Questions tagged [{{- $tagname -}}]">{{- $tagname -}}</a>
+</span>
