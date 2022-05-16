@@ -64,6 +64,8 @@ Stack Exchange network-wide user organization for creating community governance 
 
 Stack Overflow-based group of curators focusing on coordinated question closure, reopening, reviewing, and clean-up.
 
+**[{{< data "shared" "userscripts" "socvr" "sbt" "name" >}}]({{< data "shared" "userscripts" "socvr" "sbt" "repo" "url" >}})** &ndash; indicates that a tag has been burninated on NATO pages.
+
 {{</ section >}}
 
 </li>

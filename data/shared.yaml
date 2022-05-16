@@ -10,6 +10,13 @@ rodgort:
   repo:
     platform: GitLab
     url: https://gitlab.com/rjrudman/Rodgort
+userscripts:
+  socvr:
+    sbt:
+      name: Show Burninated Tags
+      repo:
+        platform: GitHub
+        url: https://github.com/SO-Close-Vote-Reviewers/UserScripts/blob/master/SOShowBurninatedTags.user.js
 site:
   repo:
     platform: GitHub
