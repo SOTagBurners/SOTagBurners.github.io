@@ -26,6 +26,10 @@ Some tags are ambiguous (usually due to poor naming), causing unrelated question
 
 If you think a tag needs to be disambiguated, please make a {{< external "https://meta.stackoverflow.com/questions/ask" "meta" "Meta Stack Overflow" >}} post with the {{< tag "meta.stackoverflow.com" "tag-disambiguation" >}} tag.
 
+### Retagging
+
+If you found a set of questions tagged incorrectly or think a tag has to be merged with another, please make a {{< external "https://meta.stackoverflow.com/questions/ask" "meta" "Meta Stack Overflow" >}} post tagged {{< tag "meta.stackoverflow.com" "retag-request" >}}.
+
 ### Synonymizing
 
 As for synonyms, there's not always a lot to do here. If you stumble into nearly identical tags, you can post a question on {{< external "https://meta.stackoverflow.com/questions/ask" "meta" "Meta Stack Overflow" >}} with the {{< tag "meta.stackoverflow.com" "synonym-request" >}} tag.
