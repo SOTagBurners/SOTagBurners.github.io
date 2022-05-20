@@ -9,5 +9,6 @@
     {{ end }}
 
     {{ $content := .Inner | .Page.RenderString }}
-    {{- $content -}}
+    {{- $safe := replaceRE "</p>(\\s?)<p>(<a.+?</a>)" "$1$2" $content -}}
+    {{- $safe | .Page.RenderString -}}
 </section>
