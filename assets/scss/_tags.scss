@@ -15,6 +15,12 @@
     text-decoration: none;
     vertical-align: 0.1em;
 
+    &.mod {
+        background: {
+            color: $theme-primary-bgcolor--muted;
+        }
+    }
+
     &:hover {
         background-color: $theme-primary-color;
     }

@@ -1,4 +1,5 @@
 {{ $hostname := .Get 0 }}
 {{ $tagname := .Get 1 }}
+{{ $mod := .Get 2 }}
 {{ $url := slice "https://" $hostname "/tags/" $tagname }}
-<a class="tag" href="{{- delimit $url "" -}}" target="_blank" title="Questions tagged [{{- $tagname -}}]">{{- $tagname -}}</a>
+<a class="tag{{ with $mod }} mod{{ end }}" href="{{- delimit $url "" -}}" target="_blank" title="Questions tagged [{{- $tagname -}}]">{{- $tagname -}}</a>
