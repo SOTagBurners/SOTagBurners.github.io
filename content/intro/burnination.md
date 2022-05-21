@@ -68,6 +68,10 @@ It is also problematic because:
 <!-- TODO: custom requester reasons -->
 ```
 
+Proposals reaching a score of **20** are {{< tag "meta.stackoverflow.com" "featured" true >}} by a moderator.
+
+Failure to reach the threshold in **6 months** may result in {{< tag "meta.stackoverflow.com" "status-declined" true >}}.
+
 ### Stage 2: Featuring
 
 ### Stage 3: Decision
