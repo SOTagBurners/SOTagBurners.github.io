@@ -49,7 +49,7 @@ It fails all the preliminary checks before burnination:
 
 > Does it describe the contents of the questions to which it is applied? and is it unambiguous?
 
-**No**, !-- reasons why it is ambiguous or is a "meta" tag -->
+**No**, <!-- reasons why it is ambiguous or is a "meta" tag -->
 
 > Is the concept described even on-topic for the site?
 
@@ -108,6 +108,14 @@ The tag under discussion here is being [considered for immediate removal](http:/
 {{</ notice >}}
 
 ### Stage 3: Decision
+
+After giving the proposal time to be {{< tag "meta.stackoverflow.com" "featured" true >}}, a moderator will review the post, votes, answers, and comments.
+
+If there is a strong indication the community does not support the request, it will be {{< tag "meta.stackoverflow.com" "status-declined" true >}}.
+
+If the tag can be cleanly removed immediately, the proposal is moved directly to stage 5 after the moderator deals with the tag.
+
+Otherwise, the proposal is advanced to stage 4.
 
 ### Stage 4: Burnination
 
