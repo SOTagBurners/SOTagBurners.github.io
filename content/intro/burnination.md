@@ -74,6 +74,39 @@ Failure to reach the threshold in **6 months** may result in {{< tag "meta.stack
 
 ### Stage 2: Featuring
 
+After it reaches the threshold, the proposal enters the featuring stage. It exists to gather feedback from wider community,
+including those not frequenting {{< external "https://meta.stackoverflow.com/questions/ask" "Meta Stack Overflow" "Meta Stack Overflow" >}}.
+The following happens in this stage:
+
+A {{< tag "meta.stackoverflow.com" "featured" true >}} tag is added to the proposal post for at least **36–48 hours**.
+
+Punny titles common for the stage 1 are **replaced** with "Should we burninate the [tag name] tag?".
+
+A hidden warning (via HTML comments) for editors is added to the proposal post:
+
+```md
+<!-- MODERATOR NOTE TO EDITORS:
+Do not change the question's title while it is being [featured]. No puns!
+
+If you ignore this note, it will be considered abuse and handled accordingly.
+-->
+```
+
+Additionally, a visible warning will be prepended to the post:
+
+<pre class="scrollable-code">
+<code>
+> #### *This tag is in phase 2 of the burnination process described [here](https://meta.stackoverflow.com/q/324070). The question and comments have been cleaned to allow for on-topic discussion about the burnination of this tag. Please keep it that way.*
+> ###### *If you want to discuss the process of burnination itself, post a new question on Meta or visit the [SOCVR chat room](https://chat.stackoverflow.com/rooms/41570).*
+</code>
+</pre>
+
+A Featured Burninate Request notice will also added to the proposal:
+
+{{< notice >}}
+The tag under discussion here is being [considered for immediate removal](http://meta.stackoverflow.com/questions/307068/make-it-easier-to-prevent-new-questions-being-added-in-a-tag/307124#307124). If you have reason to believe this tag should be kept, please post an answer defending it!
+{{</ notice >}}
+
 ### Stage 3: Decision
 
 ### Stage 4: Burnination
