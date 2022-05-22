@@ -1,8 +1,13 @@
-.highlight {
-    margin-bottom: 1em;
+@import "./_mixins";
+
+.highlight, .scrollable-code {
+    @include mb-text;
 }
 
 .scrollable-code {
+    background: {
+        color: #f8f8f8;
+    };
     max-width: 100vw;
     overflow: {
         x: scroll;
