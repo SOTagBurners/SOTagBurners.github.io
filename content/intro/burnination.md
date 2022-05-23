@@ -68,19 +68,28 @@ It is also problematic because:
 <!-- TODO: custom requester reasons -->
 ```
 
-Proposals reaching a score of **20** are {{< tag "meta.stackoverflow.com" "featured" true >}} by a moderator.
+The guidelines state that proposals reaching a score of **20** are {{< tag "meta.stackoverflow.com" "featured" true >}} by a moderator, and that failure to reach the threshold in **6 months** may result in {{< tag "meta.stackoverflow.com" "status-declined" true >}}. However, this is typically not how it works in practice.
 
-Failure to reach the threshold in **6 months** may result in {{< tag "meta.stackoverflow.com" "status-declined" true >}}.
+In most cases, failure to reach the threshold is not an issue. Burninations usually get declined if the proposal is met with resistance, either in the form of an overweight of downvotes, or comments and/or answers showing opposition to the idea. In either case, it'll take some time before stage two starts, provided it isn't declinable in phase one.
 
 ### Stage 2: Featuring
 
-After it reaches the threshold, the proposal enters the featuring stage. It exists to gather feedback from wider community,
+Stage two starts when a moderator features the question. It exists to gather feedback from wider community,
 including those not frequenting {{< external "https://meta.stackoverflow.com/questions/ask" "Meta Stack Overflow" "Meta Stack Overflow" >}}.
 The following happens in this stage:
 
 A {{< tag "meta.stackoverflow.com" "featured" true >}} tag is added to the proposal post for at least **36–48 hours**.
 
 Punny titles common for the stage 1 are **replaced** with "Should we burninate the [tag name] tag?".
+
+
+<!--
+
+I feel like these don't really make sense to put here.
+This is meant to be an intro, not copy-pasta for moderators. We can put it on another page or something instead, dedicated to moderators
+or something.
+
+-->
 
 A hidden warning (via HTML comments) for editors is added to the proposal post:
 
