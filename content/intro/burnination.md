@@ -94,6 +94,24 @@ Otherwise, the proposal is advanced to stage 4.
 
 ### Stage 4: Burnination
 
+A {{< tag "meta.stackoverflow.com" "status-planned" true >}} tag is added to the proposal post.
+
+The title of the post is replaced with "The [tagname] tag is in the process of being burninated".
+
+The tag's tag wiki is replaced with "DO NOT USE! This tag is being burninated. See: <link to Meta question>".
+
+A "community wiki" answer is posted providing specific guidance on burnination.
+
+After that, the tag is fair game for anyone to participate, including:
+
+- editing
+- flagging to close (users without the {{< external "https://stackoverflow.com/help/privileges/close-questions" "CV/RV privilege" "Cast close and reopen votes privilege" >}})
+- retagging (users with the {{< external "https://stackoverflow.com/help/privileges/edit" "edit privilege" "Edit questions and answers privilege" >}})
+- voting to close (users with the {{< external "https://stackoverflow.com/help/privileges/close-questions" "CV/RV privilege" "Cast close and reopen votes privilege" >}})
+- voting to delete (users with the {{< external "https://stackoverflow.com/help/privileges/moderator-tools" "10K tools privilege" "Access to moderator tools" >}})
+
+After the tag is cleaned up, questions that are **closed** and have a score **less than 0** will be **deleted**, and the tag will be removed.
+
 {{</ section >}}
 
 {{<section "How do I participate in the removal phase?" "participate">}}
