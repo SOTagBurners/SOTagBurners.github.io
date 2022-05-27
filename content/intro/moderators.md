@@ -77,3 +77,15 @@ At the end of the burnination process, all questions which still have the [tag:t
 
 If you have any questions about specific questions you come across, or the process in general, please feel free to leave a comment on this post. You can also drop into the [SOCVR chat room](https://chat.stackoverflow.com/rooms/41570) for real-time advice and discussion.
 ```
+
+### Stage 5:
+
+Edit the community wiki answer with a mention that the burnination is now complete:
+
+```md
+[tag:tag] has been *burninated*.
+
+![trogdor](https://i.stack.imgur.com/Zm85C.png)
+
+Thanks to everyone who participated.
+```
