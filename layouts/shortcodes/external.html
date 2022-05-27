@@ -1,4 +1,4 @@
 {{ $url := .Get 0 }}
 {{ $label := .Get 1 }}
 {{ $title := .Get 2 }}
-<a href="{{- $url -}}" target="_blank" {{ with $title }}title="$title"{{ end }}>{{- $label -}}</a>
+<a href="{{- $url -}}" target="_blank" {{ with $title }}title="{{- $title -}}"{{ end }}>{{- $label -}}</a>
