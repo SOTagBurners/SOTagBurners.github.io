@@ -68,10 +68,6 @@ It is also problematic because:
 <!-- TODO: custom requester reasons -->
 ```
 
-The guidelines state that proposals reaching a score of **20** are {{< tag "meta.stackoverflow.com" "featured" true >}} by a moderator, and that failure to reach the threshold in **6 months** may result in {{< tag "meta.stackoverflow.com" "status-declined" true >}}. However, this is typically not how it works in practice.
-
-In most cases, failure to reach the threshold is not an issue. Burninations usually get declined if the proposal is met with resistance, either in the form of an overweight of downvotes, or comments and/or answers showing opposition to the idea. In either case, it'll take some time before stage two starts, provided it isn't declinable in phase one.
-
 ### Stage 2: Featuring
 
 Stage two starts when a moderator features the question. It exists to gather feedback from wider community,
