@@ -110,7 +110,13 @@ After that, the tag is fair game for anyone to participate, including:
 - voting to close (users with the {{< external "https://stackoverflow.com/help/privileges/close-questions" "CV/RV privilege" "Cast close and reopen votes privilege" >}})
 - voting to delete (users with the {{< external "https://stackoverflow.com/help/privileges/moderator-tools" "10K tools privilege" "Access to moderator tools" >}})
 
-After the tag is cleaned up, questions that are **closed** and have a score **less than 0** will be **deleted**, and the tag will be removed.
+### Stage 5: Cleanup
+
+After the tag is burninated, questions that are **closed** and have a score **less than 0** will be **deleted**, and the tag will be removed. Once that is done:
+
+A {{< tag "meta.stackoverflow.com" "status-completed" true >}} tag is added to the proposal post.
+
+The title of the post is replaced with "The [name of tag] tag has been burninated" *or* reverted to the punny one.
 
 {{</ section >}}
 
