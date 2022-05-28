@@ -9,7 +9,7 @@ title: Burnination
 
 {{<section "How does the burnination process work?" "about">}}
 
-### Initiating
+{{< heading 3 "Initiating" >}}
 
 A tag can be burned on the spot by yourself if **all** holds true:
 
@@ -19,7 +19,7 @@ A tag can be burned on the spot by yourself if **all** holds true:
 
 Otherwise, you **must** follow the burnination process.
 
-### Stage 1: Proposal
+{{< heading 3 "Stage 1: Proposal" >}}
 
 First, make sure the tag **fails** all of the criteria for burnination:
 
@@ -72,7 +72,7 @@ The guidelines state that proposals reaching a score of **20** are {{< tag "meta
 
 In most cases, failure to reach the threshold is not an issue. Burninations usually get declined if the proposal is met with resistance, either in the form of an overweight of downvotes, or comments and/or answers showing opposition to the idea. In either case, it'll take some time before stage two starts, provided it isn't declinable in phase one.
 
-### Stage 2: Featuring
+{{< heading 3 "Stage 2: Featuring" >}}
 
 Stage two starts when a moderator features the question. It exists to gather feedback from wider community,
 including those not frequenting {{< external "https://meta.stackoverflow.com/questions/ask" "Meta Stack Overflow" "Meta Stack Overflow" >}}.
@@ -82,7 +82,7 @@ A {{< tag "meta.stackoverflow.com" "featured" true >}} tag is added to the propo
 
 Punny titles common for the stage 1 are **replaced** with "Should we burninate the [tag name] tag?".
 
-### Stage 3: Decision
+{{< heading 3 "Stage 3: Decision" >}}
 
 After giving the proposal time to be {{< tag "meta.stackoverflow.com" "featured" true >}}, a moderator will review the post, votes, answers, and comments.
 
@@ -92,7 +92,7 @@ If the tag can be cleanly removed immediately, the proposal is moved directly to
 
 Otherwise, the proposal is advanced to stage 4.
 
-### Stage 4: Burnination
+{{< heading 3 "Stage 4: Burnination" >}}
 
 A {{< tag "meta.stackoverflow.com" "status-planned" true >}} tag is added to the proposal post.
 
@@ -110,7 +110,7 @@ After that, the tag is fair game for anyone to participate, including:
 - voting to close (users with the {{< external "https://stackoverflow.com/help/privileges/close-questions" "CV/RV privilege" "Cast close and reopen votes privilege" >}})
 - voting to delete (users with the {{< external "https://stackoverflow.com/help/privileges/moderator-tools" "10K tools privilege" "Access to moderator tools" >}})
 
-### Stage 5: Cleanup
+{{< heading 3 "Stage 5: Cleanup" >}}
 
 After the tag is burninated, questions that are **closed** and have a score **less than 0** will be **deleted**, and the tag will be removed. Once that is done:
 
