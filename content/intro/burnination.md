@@ -98,7 +98,7 @@ A {{< tag "meta.stackoverflow.com" "status-planned" true >}} tag is added to the
 
 The title of the post is replaced with "The [tagname] tag is in the process of being burninated".
 
-The tag's tag wiki is replaced with "DO NOT USE! This tag is being burninated. See: <link to Meta question>".
+The tag's tag wiki is replaced with "DO NOT USE! This tag is being burninated. See: \<link to Meta question\>".
 
 A "community wiki" answer is posted providing specific guidance on burnination.
 
