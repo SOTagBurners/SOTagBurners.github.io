@@ -2,7 +2,7 @@
 {{- $heading := .Get 1 -}}
 {{- $href := delimit (slice "#" (anchorize $heading)) "" | ref .Page  -}}
 <a  class="heading-anchor" href="{{- $href -}}" title="{{- $heading -}}">
-    <h{{- $level -}}>
+    <h{{- $level }} id="{{- anchorize $heading -}}">
         {{- $heading -}}
     </h{{- $level -}}>
 </a>
