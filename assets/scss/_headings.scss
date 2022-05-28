@@ -1,13 +1,10 @@
 @import "./_vars";
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: {
-        bottom: 15px;
+@for $i from 1 through 6 {
+    h#{$i} {
+        margin: {
+            bottom: 15px;
+        }
     }
 }
 
