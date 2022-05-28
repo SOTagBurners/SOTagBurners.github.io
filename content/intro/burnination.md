@@ -30,11 +30,11 @@ First, make sure the tag **fails** all of the criteria for burnination:
 
 If it passes at least **one**, do not proceed and consider other options, if it is:
 
-ambiguous, create a {{< tag "meta.stackoverflow.com" "tag-disambiguation" >}} request.
+- ambiguous, create a {{< tag "meta.stackoverflow.com" "tag-disambiguation" >}} request.
 
-poorly named, make a {{< tag "meta.stackoverflow.com" "retag-request" >}} request.
+- poorly named, make a {{< tag "meta.stackoverflow.com" "retag-request" >}} request.
 
-too similar to another tag, write up a {{< tag "meta.stackoverflow.com" "synonym-request" >}} request.
+- too similar to another tag, write up a {{< tag "meta.stackoverflow.com" "synonym-request" >}} request.
 
 ----
 
