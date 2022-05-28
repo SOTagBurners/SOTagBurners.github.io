@@ -1,6 +1,7 @@
 @import "./_code";
 @import "./_container";
 @import "./_footer";
+@import "./_headings";
 @import "./_links";
 @import "./_lists";
 @import "./_mobile";
@@ -47,17 +48,6 @@ section {
     }
 }
 
-h1 {
-    display: inline-block;
-    width: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 hr {
     // Paragraph spacing
