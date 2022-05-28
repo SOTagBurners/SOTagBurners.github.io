@@ -9,13 +9,17 @@ ul {
 
 li {
     &:not(:last-child) {
-        margin-bottom: 0.5em;
+        margin: {
+            bottom: 0.5em;
+        }
     }
 }
 
 ul {
     &:not(.block-list, nav ul, .social) {
-        margin-left: 0.5em;
+        margin: {
+            left: 0.5em;
+        }
 
         li {
             list: {
@@ -35,6 +39,24 @@ ul {
                     weight: 900;
                 }
             }
+        }
+    }
+}
+
+.block-list {
+    list: {
+        style: none;
+    }
+
+    >li {
+        border: {
+            left: 1px solid $theme-ternary-bgcolor;
+        }
+
+        padding: 0 1em;
+
+        &:not(:last-child) {
+            margin-bottom: 2em;
         }
     }
 }

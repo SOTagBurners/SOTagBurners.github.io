@@ -97,16 +97,3 @@ p {
 .cta-button:hover {
     background-color: $theme-cta-primary;
 }
-
-.block-list {
-    list-style: none;
-
-    >li {
-        border-left: 1px solid $theme-ternary-bgcolor;
-        padding: 0 1em;
-
-        &:not(:last-child) {
-            margin-bottom: 2em;
-        }
-    }
-}
