@@ -1,3 +1,5 @@
+@import "./_vars";
+
 h1,
 h2,
 h3,
@@ -12,4 +14,29 @@ h6 {
 h1 {
     display: inline-block;
     width: 100%;
+}
+
+.heading-anchor {
+    color: black;
+
+    text: {
+        decoration: none;
+    }
+
+    @for $i from 1 through 6 {
+        h#{$i}::after {
+            content: "§";
+
+            margin: {
+                left: 0.5em;
+            }
+
+            visibility: hidden;
+        }
+
+        h#{$i}:hover::after {
+            color: $theme-ternary-bgcolor;
+            visibility: visible;
+        }
+    }
 }
