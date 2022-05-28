@@ -9,6 +9,8 @@
     {{ end }}
 
     {{ $content := .Inner | .Page.RenderString }}
-    {{- $safe := replaceRE "</p>(\\s?)<p>(<a.+?</a>)" "$1$2" $content -}}
-    {{- $safe | .Page.RenderString -}}
+    {{- $safepars := replaceRE "</p>(\\s?)<p>(<a.+?</a>)" "$1$2" $content -}}
+    {{- $safelists1 := replaceRE "(</li>)\\s?</ul>\\s?<p>(<a.+?</a>).*?</p>\\s?</ul>" " $2$1" $safepars  -}}
+    {{- $safelists2 := replaceRE "</li>\\s?</ul>\\s?<p>\\s?(<a.+?</a>.*?)</p>" " $1</li></ul>" $safelists1  -}}
+    {{- $safelists2 | .Page.RenderString -}}
 </section>
