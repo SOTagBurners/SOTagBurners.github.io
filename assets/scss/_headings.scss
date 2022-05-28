@@ -32,7 +32,7 @@ h1 {
         }
 
         h#{$i}:hover::after {
-            color: $theme-ternary-bgcolor;
+            color: $theme-primary-bgcolor;
             visibility: visible;
         }
     }
