@@ -2,7 +2,9 @@
 
 ol,
 ul {
-    margin: 1em;
+    &:not(.block-list, nav ul, .social) {
+        margin: 1em;
+    }
 }
 
 li {
@@ -12,24 +14,26 @@ li {
 }
 
 ul {
-    margin-left: 0.5em;
+    &:not(.block-list, nav ul, .social) {
+        margin-left: 0.5em;
 
-    li {
-        list: {
-            style: {
-                type: "\2013";
+        li {
+            list: {
+                style: {
+                    type: "\2013";
+                }
             }
-        }
 
-        padding: {
-            left: 0.5em;
-        }
+            padding: {
+                left: 0.5em;
+            }
 
-        &::marker {
-            color: $theme-primary-bgcolor;
+            &::marker {
+                color: $theme-primary-bgcolor;
 
-            font: {
-                weight: 900;
+                font: {
+                    weight: 900;
+                }
             }
         }
     }
