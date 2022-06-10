@@ -62,11 +62,15 @@ p {
 .cta-button {
     @extend .btn;
 
-    background-color: lighten($theme-cta-primary, 20%);
-}
+    background: {
+        color: lighten($theme-cta-primary, 20%);
+    }
 
-.cta-button:hover {
-    background-color: $theme-cta-primary;
+    &:hover {
+        background: {
+            color: $theme-cta-primary;
+        }
+    }
 }
 
 .cta {
