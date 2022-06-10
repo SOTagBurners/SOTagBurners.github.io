@@ -8,9 +8,9 @@ title: Home
 
 {{<raw>}}
 
-<div class="coa-container" id="who-we-are">
+<div class="cta-container" id="who-we-are">
 
-    <img class="coa" src="/images/sotb_coa.png" alt="SOTagBurners coat of arms with 'ingis emundat' motto" />
+    <img class="cta" src="/images/sotb_coa.png" alt="SOTagBurners coat of arms with 'ingis emundat' motto" />
 
     <h1>We are SOTagBurners</h1>
 

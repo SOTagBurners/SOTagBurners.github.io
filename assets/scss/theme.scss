@@ -88,7 +88,7 @@ p {
     background-color: $theme-cta-primary;
 }
 
-.coa {
+.cta {
     width: clamp(150px, 25vw, 300px);
 
     &:hover {
@@ -101,7 +101,7 @@ p {
     }
 }
 
-.coa-container {
+.cta-container {
     align-items: center;
     display: flex;
     flex: {
