@@ -1,0 +1,21 @@
+@import "./_vars";
+
+.btn {
+    background-color: $theme-bgcolor-muted;
+    color: #000;
+    padding: 7px;
+
+    transition-duration: 500ms;
+
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+    text-decoration: none;
+
+    border-radius: 2px;
+
+    margin: 4px;
+}
+
+.btn:hover {
+    background-color: darken(desaturate($theme-bgcolor-muted, 30%), 25%);
+    color: #fff;
+}
