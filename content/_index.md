@@ -8,16 +8,22 @@ title: Home
 
 {{<raw>}}
 
-<div class="flex" id="moderation-onboarding">
-    <h1>Who we are</h1>
+<div class="coa-container" id="who-we-are">
 
-    <p>SOTagBurners specializes in tag moderation on Stack Overflow, and tools to achieve that more effectively.</p>
+    <img class="coa" src="/images/sotb_coa.png" alt="SOTagBurners coat of arms with 'ingis emundat' motto" />
+
+    <h1>We are SOTagBurners</h1>
+
+    <p>We specialize in tag moderation on Stack Overflow, and tools to do it effectively</p>
 
     <hr />
     <!-- I think we may want a better CTA than this. Maybe redirect to some content when we have
     something slightly more solid? -->
-    <a href="{{< data "shared" "chat" "url" >}}" class="cta-button">Chat with us</a>
-    <a href="/contribute.html" class="btn">Get involved</a>
+
+    <div id="cta">
+        <a href="{{< data "shared" "chat" "url" >}}" class="cta-button">Chat with us</a>
+        <a href="/contribute.html" class="btn">Get involved</a>
+    </div>
 </div>
 {{</raw>}}
 
